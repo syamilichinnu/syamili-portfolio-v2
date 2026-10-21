@@ -1,0 +1,338 @@
+<t t-name="website.home">
+    <t t-call="website.layout">
+
+        <div id="wrap" class="oe_structure">
+            <div class="sk-portfolio">
+
+                <div class="sk-progress"><span></span></div>
+
+                <!-- Animated dark background -->
+                <div class="sk-bg" aria-hidden="true">
+                    <span class="sk-orb sk-orb-1"></span>
+                    <span class="sk-orb sk-orb-2"></span>
+                    <span class="sk-orb sk-orb-3"></span>
+                    <span class="sk-gridbg"></span>
+                </div>
+
+                <!-- Floating navigation -->
+                <header class="sk-nav">
+                    <div class="sk-nav-inner">
+                        <a href="#home" class="sk-brand"><span class="sk-mark">SK</span><b>Syamili K</b></a>
+                        <ul class="sk-menu">
+                            <li><a href="#home" class="sk-link">Home</a></li>
+                            <li><a href="#about" class="sk-link">About</a></li>
+                            <li><a href="#highlights" class="sk-link">Highlights</a></li>
+                            <li><a href="#skills" class="sk-link">Skills</a></li>
+                            <li><a href="#experience" class="sk-link">Experience</a></li>
+                            <li><a href="#education" class="sk-link">Education</a></li>
+                            <li><a href="#contact" class="sk-link">Contact</a></li>
+                        </ul>
+                        <div class="sk-nav-tools">
+                            <button type="button" class="sk-tool" data-action="theme" aria-label="Toggle dark mode"><i class="fa fa-moon-o"></i></button>
+                            <button type="button" class="sk-tool sk-tool-primary" data-action="download" data-filename="Syamili_K_Resume.pdf" data-cv="JVBERi0xLjQKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgKG9wZW5zb3VyY2UpCjEgMCBvYmoKPDwKL0YxIDIgMCBSIC9GMiAzIDAgUiAvRjMgNCAwIFIgL0Y0IDUgMCBSCj4+CmVuZG9iagoyIDAgb2JqCjw8Ci9CYXNlRm9udCAvSGVsdmV0aWNhIC9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nIC9OYW1lIC9GMSAvU3VidHlwZSAvVHlwZTEgL1R5cGUgL0ZvbnQKPj4KZW5kb2JqCjMgMCBvYmoKPDwKL0Jhc2VGb250IC9UaW1lcy1JdGFsaWMgL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcgL05hbWUgL0YyIC9TdWJ0eXBlIC9UeXBlMSAvVHlwZSAvRm9udAo+PgplbmRvYmoKNCAwIG9iago8PAovQmFzZUZvbnQgL1RpbWVzLUJvbGQgL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcgL05hbWUgL0YzIC9TdWJ0eXBlIC9UeXBlMSAvVHlwZSAvRm9udAo+PgplbmRvYmoKNSAwIG9iago8PAovQmFzZUZvbnQgL1RpbWVzLVJvbWFuIC9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nIC9OYW1lIC9GNCAvU3VidHlwZSAvVHlwZTEgL1R5cGUgL0ZvbnQKPj4KZW5kb2JqCjYgMCBvYmoKPDwKL0EgPDwKL1MgL1VSSSAvVHlwZSAvQWN0aW9uIC9VUkkgKG1haWx0bzpzeWFtaWxpY2hpbm51ODU5N0BnbWFpbC5jb20pCj4+IC9Cb3JkZXIgWyAwIDAgMCBdIC9SZWN0IFsgMjQ3LjQ1MzggNzQyLjM2OTggMjcwLjM4ODIgNzUzLjg4OTggXSAvU3VidHlwZSAvTGluayAvVHlwZSAvQW5ub3QKPj4KZW5kb2JqCjcgMCBvYmoKPDwKL0EgPDwKL1MgL1VSSSAvVHlwZSAvQWN0aW9uIC9VUkkgKGh0dHBzOi8vd3d3LmxpbmtlZGluLmNvbS9pbi9zeWFtaWxpLWstNDQzNzQ2MjFhLykKPj4gL0JvcmRlciBbIDAgMCAwIF0gL1JlY3QgWyAyNzcuMTA4MiA3NDIuMzY5OCAzMTIuMzAxOCA3NTMuODg5OCBdIC9TdWJ0eXBlIC9MaW5rIC9UeXBlIC9Bbm5vdAo+PgplbmRvYmoKOCAwIG9iago8PAovQSA8PAovUyAvVVJJIC9UeXBlIC9BY3Rpb24gL1VSSSAoaHR0cHM6Ly9naXRodWIuY29tL3N5YW1pbGljaGlubnUpCj4+IC9Cb3JkZXIgWyAwIDAgMCBdIC9SZWN0IFsgMzE5LjAyMTggNzQyLjM2OTggMzQ3LjgyMTggNzUzLjg4OTggXSAvU3VidHlwZSAvTGluayAvVHlwZSAvQW5ub3QKPj4KZW5kb2JqCjkgMCBvYmoKPDwKL0Fubm90cyBbIDYgMCBSIDcgMCBSIDggMCBSIF0gL0NvbnRlbnRzIDE0IDAgUiAvTWVkaWFCb3ggWyAwIDAgNTk1LjI3NTYgODQxLjg4OTggXSAvUGFyZW50IDEzIDAgUiAvUmVzb3VyY2VzIDw8Ci9Gb250IDEgMCBSIC9Qcm9jU2V0IFsgL1BERiAvVGV4dCAvSW1hZ2VCIC9JbWFnZUMgL0ltYWdlSSBdCj4+IC9Sb3RhdGUgMCAKICAvVHJhbnMgPDwKCj4+IC9UeXBlIC9QYWdlCj4+CmVuZG9iagoxMCAwIG9iago8PAovQ29udGVudHMgMTUgMCBSIC9NZWRpYUJveCBbIDAgMCA1OTUuMjc1NiA4NDEuODg5OCBdIC9QYXJlbnQgMTMgMCBSIC9SZXNvdXJjZXMgPDwKL0ZvbnQgMSAwIFIgL1Byb2NTZXQgWyAvUERGIC9UZXh0IC9JbWFnZUIgL0ltYWdlQyAvSW1hZ2VJIF0KPj4gL1JvdGF0ZSAwIC9UcmFucyA8PAoKPj4gCiAgL1R5cGUgL1BhZ2UKPj4KZW5kb2JqCjExIDAgb2JqCjw8Ci9QYWdlTW9kZSAvVXNlTm9uZSAvUGFnZXMgMTMgMCBSIC9UeXBlIC9DYXRhbG9nCj4+CmVuZG9iagoxMiAwIG9iago8PAovQXV0aG9yIChTeWFtaWxpIEspIC9DcmVhdGlvbkRhdGUgKEQ6MjAyNjEwMjEyMTM3MTArMDUnMDAnKSAvQ3JlYXRvciAoXCh1bnNwZWNpZmllZFwpKSAvS2V5d29yZHMgKCkgL01vZERhdGUgKEQ6MjAyNjEwMjEyMTM3MTArMDUnMDAnKSAvUHJvZHVjZXIgKFJlcG9ydExhYiBQREYgTGlicmFyeSAtIFwob3BlbnNvdXJjZVwpKSAKICAvU3ViamVjdCAoT2Rvby9QeXRob24gRGV2ZWxvcGVyKSAvVGl0bGUgKFN5YW1pbGkgSyAtIFJlc3VtZSkgL1RyYXBwZWQgL0ZhbHNlCj4+CmVuZG9iagoxMyAwIG9iago8PAovQ291bnQgMiAvS2lkcyBbIDkgMCBSIDEwIDAgUiBdIC9UeXBlIC9QYWdlcwo+PgplbmRvYmoKMTQgMCBvYmoKPDwKL0ZpbHRlciBbIC9BU0NJSTg1RGVjb2RlIC9GbGF0ZURlY29kZSBdIC9MZW5ndGggMzIzNwo+PgpzdHJlYW0KR2F1MEY+P0JRTSZxODAxVzJEWGQ8c1tWOHFhUUFKPzsvQVRUJDhPOVFhWVxoXiQkNTsrUHI7KF5YXy8nLG9LaGlBcGVWKVtlYG5QP2U9RD8maXNfJDpEYSQ5JlxzL15TNmJFUSlfYldNRFErRHEtU1YiKHFzZEY/KHVWQyUodClCWSlTdU5nZztTIyllWmd0TiRrOz4yU0JObDpATmdBPko2cjpURV9ldU4mK2ZoPHIjXj1KKFlsSCpDKWMobE5wOm8oTFBrIz8tM2dkUXBBUHR0SSxEOCcnMUhtdSUlZiZEXT0pSjxOZWNaZCx0ZSxaSVBbUlNpT1RlSWc3OT8zbiZpKWBRTCdXJks4XDVyYDU0RSxcViJkP1lvRjZaa0EmTVhfVEQ4aSxXVj8zTUtLUUw4LD5jbyxjKUIvZCxhOFNxdXElKjY1R2Y+IW9uT0k4PkJjZTg/XEpKWSpxRWBoMHNZZEtDN0tBVzxeJCI2M04mMmlCNUV0P1VMND4lKV07TD8pbyUqJHFGNWo6JiE/dCoqOlohSUNmYCVrbyRUQD51WGQxaSk3YWBcLz0hXjMmMjlFV21jWjYnRzIqXSNsTFw2UkJaSTswJCFNLWolbGJkLk1pT0gqP2ksK1IuXzteaCcnL2JIOlpcbUwiRTRwcW8vX0FjYEw6TzpLaFxbPDlvZzw0O0FwZW1CTS5CMiwydSxRTihyR0YrNCJnWzBKPTQ2Qz46cTdwdS8oQzpMXik/VD5KVThpcldKZyc6amBjWGZhZiY6MGIwP0srNV1XYHVxIWlOam1rUj9CW0Y4UEJIdSxbUz9OKDNnRmg4XUdGS2NtQT1SbGs6byNAL1Vgc1BbbGQiLnAxaWNyIlM+QFQvX2pIIixePUVsb28lT11uLj9GOSlNcWQ9Oy9RXjZsKVVCTkRMT1I2O1pmNSchX0k6T3MqR2BBT3BtOT4rVUNZSlpAakktVkVgV2ouSmo/ImBPbiNkPSdMPCxyZiY1QEtENWM9Oj5vUT5Tal1BQmBZI1smNVNVU0hgaF8jVkdjWVk3TyVcbkEuTUteT0pFJz8jRCxDNFpeQmw4VWZlPmdEZ25dLzlDUDVCbjsnW1EpJj5IMmUwTmNzJjxYSi1PZT0qWUpMKFZTVV9JSmswYD9Fc15fOiM3WExjLUg+UHNNRVxOXSM5SnJqYz9GN20obUonPmo8OzQ2QislY2BCKGBwSXNnYSMoN21ZQi0vdT0kJGpwXHVBaV9vJE9xPG90dXElOCtoIyxwOkA7K2I7VUhsWjhBSV81UTVhXl80VVBpTksxKDhYVDcxP0pmLDs/O085OnU/VCJlcD0vUUBlR0ltKUlcTjsxR1tWSm1scClRTWYvZnImcF86SUQxR2RHcU1CWj9TYURWMEEsS01WUD5tK2NjP1BBMWU7Jk04MC8jKC5LUVMlUENrYzdOOFFdJ11pVj4lTDo0ST1QaD1ZRERAVVA0OHVQUmIkJ0gyMDY9SFBZMjVKJmBabTdZUScoPDosUSQtPy8pW3JVR2xEYFBmR09RY2lrRWtZVD86OzAnUkVLJzVnPUhcSDNrVi06aT9kSjsrLSMpMyd0S1IkPEQ5UCFNVlMxcz9bP1AlXUY6IWxIJ09NaERXJGo9WWFTUFdqYT5OMzQ9TmpBQytcMTFKPStvY2tZb1cxJkpdX0U4N2JcLjNFRylyLmZxPjlBWUM4ZXIzMzZvKT5LYistP0BsYVsoQlJBTGhTMScoY15MJz5hLkU9WyJdRUFNJEIkRF8rUCxAO2F1TWQ4ZiksUyNvY2IlNXJCKl1QbkcvVEtNZmFebVk+ZSk5MGJYSHA5TzBJNzZVJzwyZSQpP2ZVNT4jRFQkI1VBSkRMMDo+YF5sUW8rZCQyNz8tYTlQOGU5OlFJNDNUTGQ1cCdfcCJga3MnP2MuSUEmTTVhUkAkVz1pNjQkSFBYPjBLWTlbSzJnQ01MO1UpdV4zaGgrWm0xb1llY1EnMC4tJjJtYSw7USRULjhCXW9bc2FybFtQJ2RjX2QjODtJKjQ/TkxkI29Fb3ImPWpicSRNJStsVFdlTCVDTUdVMFRCN1IzKHQmYDNVXVEvUz4vJlxMR1hsYVNocEFHQCtTX2VPSERLSyUzXl1mNGBWWTFUZHAwaDpjNi89RE4jTThDRUV0UCkibGJGPCdfPmApRT09aTpkLVlpQWEiaVU5N1AxIWhvRi9Obyw1NkgmRmNtZm9sbmxMcyEhTmBPa1RMcC9HOT9SZ1liSExhcFJmM2g3WDFycWZKTyRTPyFNZSE/XnNudTlrR0E8Nz1DMCk9ITJiOFZIXkMrbGdcTlY3TyFLWFFLbjNKLWEzTEAuV0FQZk5HOmY+cVt0Rlk/OCVPKj5DaDlmN2t0SC1RPTtIRGtLUURHZnBCaD0/IjxpZm1rWldIbEVWYykzRWw7QjhdImcsS04ycmcuWS4xP1M6UmI2T2NqNTpcQmNTJ01PdWdEQ1FfLDImc2EraUtPZlEkI2ZhVG9xLDFWUitzV1Rib0UnckI3RjI/KlFkSEtUTWQtJVE3KS10TygiMDBIUGRNczhMLEVfMCxiQ3FJWFJ1RFMmbmFeUjRycERRSmhAQSxVYnIhP2lIYVpUU1gxJVFjSGJcWFZUP3ViI18jVUJXIm88dEM/aFsjOXFDYFI7Y2dGcUUrISthMDpcRTRwVnEvLXFKNSdOY2ZzWTo0U2pGW0hDSFJXTm5zOWZeNEk2L01jIissaiZzM0csMk1vY1w0K2pqXnRTUW1aVHVPRmFZPmpbbFNvMzdIY0BfNmw+T00waU9GLVskU1hFVEtOIjdJUilgRExLXHBWKk5eLTJSUzYpXU00M3MmS2wqOllfX2t0NkA+S3VKUEFDbU9MPi0uU2VoSyora0FuL0IvJ2k2NEkjJ2dxKWNMKmkjZU08RSc7UiooR0BqQHFlLTIpJ2c9KjddK2xLVihVNz1uQCxbQ286cmcrQD0sU0BDKSFYI0RAc0AzQG05SixlJVVOK15EU2tAUlUyOF8pX0lGaygzWkxwQVRFY1U8Sz4lZS1uI1tfYUUzciNvUShJJnRTUjg8SiNFZHFtamUlb105QCk5cTFcLjEiXyI+VTQ8PyM9PSc0YjJTaD0uXk5NV0VmKi87TD9YbGAlc1JMOi1DP3F0JUNzOClrSSc6WmJNNV5rYiZxKShjYG0yWE90NWNKNSQzbWo9QDg0NTMrJUxJZ2hPJkVMZitrKGpEdU5mSTJsRWxXbGMoc3BTIiVqJWMzMkdvbG5YW1ZSblFfaDAkNioqUEBsQXFVcjdSXSs9TTE1JlwmNTtsUjdTJjVRLlRPNHU4PV09NjRmaENKPFMvX2A0OjM4M2VMKWFBQF9mcmljPGVrcjRSXTxDVlU+ZGNKdGphITxHYy83X01DYz4mZFckWiNRVCZEWXRxWjp0KmU8Nz8rRClkQEZORy8yXTU9OkBlPm9ESzpBZUYtQidnKWJuSk0nVm9mY0RBQF8rN1suUXNJbVwsW2ksSmklQjtDTWs3ajlNK1A1IT1eSDR0QT0pW2QlRjZuRzI9NigzZHBcJF4qN1sjXENEJSJ1aGdbcTE4Pkt0LFw4QjRBRzYraSoqLmNHIWBzUDA7WkQ5JCJBPlJCP0ZpRCk7MzdFaz5OSk5RNlNWVihlbFM5TzU7UztTMUhPSTZGRElZJz9qNFJxQ0JwOXE2clRSPnEzcXNpQ1xxZU10VyVERTdhKXE8XFpHKj9VcWddYGRkZGE4OUxUUjZGW1c+RExydDp1OGVbdVhVST1VSFNgRC5ZYURAZDRDa00iWm1cMyI0WTw4YjBzbkVMZTdbaUkoKVJbLixVKUg4O2AydEtBYkc/KkppW2ohP05iQltNaiZgNj1sZ1dKLW00YW4mIjk9SjkuPE5QXG1pZmAwU3FtWSQ/aDZbWylOZGomMG9YW14tYklXPl0lcidfciMzMWo7QGBNbVFTN1ouJkY9RE9DRDJLdCcsclJPXC88V1deSTlzP2dRMWdkK1tzPW1oRmNJNSwxcksmPWopPmlMZ2dzK3BxQjUkRVNYVmBhR0pgPl4vR1gjVVtHU1ohV1luI25KaG8rJ2U2VVVqRC5CSGZCS3VfL0lNUE0iXDNcOktDIT8tKiVuKyYxTUZDOU41NnAoaXFSaipyLCwxW2xePyIqQC8qYWQ/PEsuPVMxJ29bVVNzQ2hMMF49TlNsJzpfXF45bWVIUWtyW1BdITgsb206X21rSCtEOzc6ayZDYTUraWBaPFwzMFkqZyJkOjUlMTA7OEgoOltXI2JDcDZwZ18yKlBEODZJVy9laH4+ZW5kc3RyZWFtCmVuZG9iagoxNSAwIG9iago8PAovRmlsdGVyIFsgL0FTQ0lJODVEZWNvZGUgL0ZsYXRlRGVjb2RlIF0gL0xlbmd0aCAxODU5Cj4+CnN0cmVhbQpHYXVgVGdOTTo/J1JmXldTPlhrUlooYTwoRFtwcSctWyYybURYdS9ANW9OIVdSWlY1UC09bGYwSFkrTitgZSleQVtPZyJoVTpIaVxoS3M0V2BnOjJsaXVJIkUjW1k4ZV5pPGQ+IVFWWnMoZ1kmQGtpQ15ATjQ5RiVKSmthRltpV0JlVnIjQiU0WSRzLSEqZ0k0M0xnU0csWXRgXDRvdFFiMEhhOiRtYSFUYCcxVGIjUShOJ05lXkQ2ZURBWlBTZTtNXDhsODI5WSc6SWxjV3UhcmEmJ10zamw2TU5pZm11RjxpWWRsYyInPWlPMTwlM0Y/R1VuLG85LSk7OiNVZ1MtLWs6Il9PVF1RUFBrOCY1Qy5kQURrZEstJzxdV21OPjRNPUg+aicxJC5FNzZtNjA4ZDg3a1pMRG1lSCoyRzYiN2djSjwwSnVGcD8lXSMqW0sjWD4iKGUkNF5LSSViS1pgZjtAPScwRHJUNEU+U2pdLGY6ZUAiKEwmNj1TUiNebTdkREI4Uy8nQUVxT2wnQVRXP0VhPW09ZVRpWVl0Um5mIz42cic3YjwqMjBJMl1pKGxQYXQqT3JeJE5vNTsoS3VyOk85YSlQZF5AJmVnUypNR1VZXGZIVVpiNDtMWGMzLkM7ZCJdOm00LGooTjBWcTRxTTNQZVJiYkhRZHIzZkBZM1MlalZLLSsuVVIwVG9rMzM/LD5NWkFZVTxANGhvdTpmUGY4SCZDJEk/IzVhYyFKXGRILSpVMlI9OzhUcURzIUszMTx1PDI+Xjc/RGdlI0JraWwuNWc6Xj1VMWM7c0NKLkhDU2ZXdG1pN2JtJ1pUWUFkP1xUKUQoT0cmJF9xMCE9Pk1zdC4vPE5UOVpkcTQiblgqaStqI0xQKCtaXU9SN0Iwc00pazknVSJDIyheQD9RKWcmOmYsU29UOTFrYVo7c21yI1NJNjtPZWtwXl1dbGcjTVxtN19LUjJlb0ssYmksQGQxWUtTdT9LXE0pJDRjZV9zJjxxInJgPSVpOy5lXEdIcDlKblkrWShNOlkyX19hZExSIixAKSxXRlcsVz48Ui9zWUUpSWtRVWMoXkt0XmNZa2w2U0kwZ0hMYnR0VTEuYHIpRlEzNV9yYTloOFgqOkBJWD9hTlAqWHRaQ0Eiam5yVkdjXkc4K3MtZUlbIVtlS0k5ZEtsNm9QOEUkUnE0R2pILlJDOXEtWFhzIyw+O1BAI0QhXF50ZWJuPF9BQzxTZllmV18+bU0xUSxSQy41aVNsSlxmQWxjNlI9VihDbTFyITBbbCozMHJkX0g3UDtAOUk5LWdMPjFma18kZ0EwSGsuMiRCIWFzU2AyLWtSWWo0PWtVJUsrOj02RltTPCQ9QkdZWjNxX0RWUl9gY0x0WTcuQy9QJCs+VlpUR2AnVFtlWG1PK19RbStEaG1RQCdpVDRuMmkhOC9ZODxuakMsRjBFJk0kUjNVa1NWalw+SDZBSnFRPjlOIyldKEZcSXEtVWMqS21RQURvJmViW0lvaTBrLUwoPTYnLVw9PGtCSWZsLE1QciJtWms0VDBgKys0JlNgdVhAU0xIY0osIUtvZnBVamkpWGYyaHAhMTxFRktENjROIy09UFFjTC1uUDMzNjNEKFguJjNGK1tzMSsnbCclci0obllAKUtHSGRJYUlKImFOKz40Z1YiNXArUnJebzNiNEFMPDw0OVBVZSQ5X1wsakkqbzZGSV1sbm82W2YyXWNoa1pDNm5kNz5pIjI+dCJwWC5kQW4rJTM+ZGIma2YiVltZckg1OElwMkskOTA9RzJGZEwzTVM0LF1kOFBBMU4vQyY7bF1PUGopbHNOQkpuR2w6K0lFOTc5LmwoUilaakU9dSI+Ym49SzUjX1ctSG5cTVNHI1JZcWc+IyEyTVRNSEk4QkVXOnAxcERocl4/P1NLY19uR29XJl9oUSw1bTwtKjA8OGtlOWE7Ok4laE9KY1NuQCMtYF9ycjlhMmxVVT1CNzZlMWU2WzQ9V084aXAvS2tfYj4/W0lab2RtU29NdFIoWXJAXGRmXGs/M088OlRDYCUqYj1DP2MyLlcuayhhVytiaC9RJiE4RzFxUD5oUm1gUF9pZlZkXk11M01Ma2olbE5ORXBNbmllNjhpJXMlL2Q6O3FdKEEyJkNDRnE/aHBxWlQkVTpVMmYwKCM2LkZqQChZLVhzaVlYRXEmXklhN0pXJ286L1xfUU9LXStWPDVlSms/MTlQWmllMmAoUEooNUUwOVxBKUleI3JGTWhaWkBqTylNOj1XKmZUJyVEKGg2JlxzaF1YSFw0RjVnaV1yYyczIUsmI3RMaiZmJmpUailWZzJZciRQT09tdTc5IWRwVzlKcS1Vb0EzO3FJZiVYLDppdW4tNk1eUFVVJmVjRnFhYUVfTFE6Ql0lYmUtcThBT0JvL1hvJmNjU1tbQTM7Nm9CbUZ0OmdhV1dIU2c2O09OP2w8XWhxcyZPNTZ+PmVuZHN0cmVhbQplbmRvYmoKeHJlZgowIDE2CjAwMDAwMDAwMDAgNjU1MzUgZiAKMDAwMDAwMDA2MSAwMDAwMCBuIAowMDAwMDAwMTIyIDAwMDAwIG4gCjAwMDAwMDAyMjkgMDAwMDAgbiAKMDAwMDAwMDMzOSAwMDAwMCBuIAowMDAwMDAwNDQ3IDAwMDAwIG4gCjAwMDAwMDA1NTYgMDAwMDAgbiAKMDAwMDAwMDc0MiAwMDAwMCBuIAowMDAwMDAwOTQyIDAwMDAwIG4gCjAwMDAwMDExMjYgMDAwMDAgbiAKMDAwMDAwMTM2MSAwMDAwMCBuIAowMDAwMDAxNTY3IDAwMDAwIG4gCjAwMDAwMDE2MzcgMDAwMDAgbiAKMDAwMDAwMTkyNSAwMDAwMCBuIAowMDAwMDAxOTkyIDAwMDAwIG4gCjAwMDAwMDUzMjEgMDAwMDAgbiAKdHJhaWxlcgo8PAovSUQgCls8ZjU4OTllZjcxMDc2MmIxOWIzNjQzYzAwNGU1MGE2MjM+PGY1ODk5ZWY3MTA3NjJiMTliMzY0M2MwMDRlNTBhNjIzPl0KJSBSZXBvcnRMYWIgZ2VuZXJhdGVkIFBERiBkb2N1bWVudCAtLSBkaWdlc3QgKG9wZW5zb3VyY2UpCgovSW5mbyAxMiAwIFIKL1Jvb3QgMTEgMCBSCi9TaXplIDE2Cj4+CnN0YXJ0eHJlZgo3MjcyCiUlRU9GCg=="><i class="fa fa-download"></i><span> Download CV</span></button>
+                            <button type="button" class="sk-burger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+                        </div>
+                    </div>
+                </header>
+
+                <div class="sk-main">
+
+                    <!-- Home -->
+                    <section id="home" class="sk-hero">
+                        <div class="sk-wrap">
+                            <div class="sk-hero-grid">
+
+                                <div class="sk-hero-text">
+                                    <span class="sk-badge sk-reveal"><i class="fa fa-code"></i> Odoo 14 to 19</span>
+                                    <h1 class="sk-name sk-reveal" style="--d:.08s">Hi, I'm <span class="sk-grad">Syamili K</span></h1>
+                                    <h2 class="sk-role sk-reveal" style="--d:.16s">
+                                        <span class="sk-typed" data-words="Odoo Developer|Python Developer|ERP Customization Specialist">Odoo Developer</span><span class="sk-caret"></span>
+                                    </h2>
+                                    <p class="sk-lead sk-reveal" style="--d:.24s">
+                                        Python/Odoo developer with 4+ years of experience building
+                                        custom ERP modules, integrations and reports for sales,
+                                        inventory, accounting, POS, website and HR.
+                                    </p>
+                                    <div class="sk-actions sk-reveal" style="--d:.32s">
+                                        <a href="#contact" class="sk-btn sk-btn-primary">Get In Touch</a>
+                                        <a href="#experience" class="sk-btn sk-btn-ghost">View Experience</a>
+                                    </div>
+                                    <div class="sk-social sk-reveal" style="--d:.4s">
+                                        <a href="https://www.linkedin.com/in/syamili-k-44374621a/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a>
+                                        <a href="https://github.com/syamilichinnu" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa fa-github"></i></a>
+                                        <a href="mailto:syamilichinnu8597@gmail.com" aria-label="Email"><i class="fa fa-envelope"></i></a>
+                                    </div>
+                                </div>
+
+                                <div class="sk-hero-art sk-reveal" style="--d:.2s">
+                                    <div class="sk-term">
+                                        <div class="sk-term-bar"><i></i><i></i><i></i><span>developer_profile.py</span></div>
+<pre class="sk-code"><span class="c"># Syamili K</span>
+<span class="k">class</span> <span class="f">DeveloperProfile</span>(models.Model):
+    _name = <span class="s">'developer.profile'</span>
+    name = <span class="s">'Syamili K'</span>
+    role = <span class="s">'Odoo / Python Developer'</span>
+    experience = <span class="s">'4+ years'</span>
+    odoo_versions = [<span class="n">14</span>, <span class="n">15</span>, <span class="n">16</span>, <span class="n">17</span>, <span class="n">18</span>, <span class="n">19</span>]
+    location = <span class="s">'Calicut, India'</span></pre>
+                                    </div>
+                                    <span class="sk-float sk-float-1"><i class="fa fa-check-circle"></i> Odoo 19</span>
+                                    <span class="sk-float sk-float-2"><i class="fa fa-bolt"></i> Python</span>
+                                    <span class="sk-float sk-float-3"><i class="fa fa-database"></i> PostgreSQL</span>
+                                </div>
+
+                            </div>
+
+                            <div class="sk-stats">
+                                <div class="sk-stat sk-reveal"><b data-count="4" data-suffix="+">4+</b><span>Years Experience</span></div>
+                                <div class="sk-stat sk-reveal" style="--d:.08s"><b data-count="3">3</b><span>Major Projects</span></div>
+                                <div class="sk-stat sk-reveal" style="--d:.16s"><b data-count="6">6</b><span>Odoo Versions (14 to 19)</span></div>
+                                <div class="sk-stat sk-reveal" style="--d:.24s"><b data-count="7" data-suffix="+">7+</b><span>Business Modules</span></div>
+                            </div>
+                        </div>
+
+                        <div class="sk-marquee" aria-hidden="true">
+                            <div class="sk-track"><span>Python</span><span>Odoo</span><span>PostgreSQL</span><span>JavaScript</span><span>React</span><span>XML</span><span>REST APIs</span><span>FedEx</span><span>DHL</span><span>Sendcloud</span><span>ZPL / QZ Tray</span><span>ZK Biometric</span><span>PWA</span><span>Git / GitHub</span><span>Python</span><span>Odoo</span><span>PostgreSQL</span><span>JavaScript</span><span>React</span><span>XML</span><span>REST APIs</span><span>FedEx</span><span>DHL</span><span>Sendcloud</span><span>ZPL / QZ Tray</span><span>ZK Biometric</span><span>PWA</span><span>Git / GitHub</span></div>
+                        </div>
+                    </section>
+
+                    <!-- About -->
+                    <section id="about" class="sk-section">
+                        <div class="sk-wrap">
+                            <h2 class="sk-title sk-reveal"><small>01</small>About Me</h2>
+                            <div class="sk-bento">
+                                <div class="sk-tile sk-s12 sk-about-text sk-reveal">
+                                    <p>
+                                        Passionate and detail-oriented Odoo/Python Developer with 4+ years
+                                        of hands-on experience designing, developing and implementing
+                                        customized Odoo modules and solutions.
+                                    </p>
+                                    <p>
+                                        Proficient in Python and adept at leveraging the Odoo framework to
+                                        optimize business processes across sales, inventory, manufacturing, accounting, POS, website and HR, working with clients in the US and Europe.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Key highlights -->
+                    <section id="highlights" class="sk-section">
+                        <div class="sk-wrap">
+                            <h2 class="sk-title sk-reveal"><small>02</small>Key Highlights</h2>
+                            <div class="sk-bento">
+                                <div class="sk-tile sk-s5 sk-tile-blue sk-hl sk-reveal">
+                                    <i class="fa fa-exchange sk-hl-icon"></i>
+                                    <h3>Version Migrations</h3>
+                                    <p>Migrated production systems to Odoo 16 and from Odoo 16 to 19, and ported apps across Odoo 13 to 19.</p>
+                                </div>
+                                <div class="sk-tile sk-s4 sk-hl sk-reveal" style="--d:.08s">
+                                    <i class="fa fa-truck sk-hl-icon"></i>
+                                    <h3>Shipping Integrations</h3>
+                                    <p>Integrated FedEx REST, DHL Parcel and Sendcloud for labels, combined shipments and weekly deliveries.</p>
+                                </div>
+                                <div class="sk-tile sk-s3 sk-hl sk-reveal" style="--d:.16s">
+                                    <i class="fa fa-cubes sk-hl-icon"></i>
+                                    <h3>Inventory &amp; Manufacturing</h3>
+                                    <p>Built warehouse PWA, supplier and multistation React apps, plus inventory reconciliation and work-order costing checks.</p>
+                                </div>
+                                <div class="sk-tile sk-s3 sk-hl sk-reveal">
+                                    <i class="fa fa-barcode sk-hl-icon"></i>
+                                    <h3>Barcode &amp; Devices</h3>
+                                    <p>Delivered ZPL barcode labels, QZ Tray printing and ZK biometric attendance integration.</p>
+                                </div>
+                                <div class="sk-tile sk-s4 sk-hl sk-reveal" style="--d:.08s">
+                                    <i class="fa fa-file-text-o sk-hl-icon"></i>
+                                    <h3>Sales, Invoicing &amp; Reports</h3>
+                                    <p>Customized sale order flows, invoice and PDF templates, tax handling and client-specific reports.</p>
+                                </div>
+                                <div class="sk-tile sk-s5 sk-tile-navy sk-hl sk-reveal" style="--d:.16s">
+                                    <i class="fa fa-shield sk-hl-icon"></i>
+                                    <h3>Quality &amp; Support</h3>
+                                    <p>Tested and documented Odoo 19 workflows, fixed an EDI security vulnerability and resolved customer-care tickets.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Skills -->
+                    <section id="skills" class="sk-section">
+                        <div class="sk-wrap">
+                            <h2 class="sk-title sk-reveal"><small>03</small>Technical Skills</h2>
+                            <div class="sk-bento">
+                                <div class="sk-tile sk-s4 sk-reveal">
+                                    <h3><i class="fa fa-terminal"></i> Languages</h3>
+                                    <div class="sk-tags">
+                                        <span>Python</span><span>JavaScript</span><span>XML</span><span>SQL</span>
+                                    </div>
+                                </div>
+                                <div class="sk-tile sk-s5 sk-reveal" style="--d:.08s">
+                                    <h3><i class="fa fa-cogs"></i> Frameworks &amp; Tools</h3>
+                                    <div class="sk-tags">
+                                        <span>Odoo Framework</span><span>Git / GitHub</span><span>PostgreSQL</span>
+                                        <span>PyCharm</span><span>Jira</span><span>Postman</span>
+                                    </div>
+                                </div>
+                                <div class="sk-tile sk-s3 sk-reveal" style="--d:.16s">
+                                    <h3><i class="fa fa-cubes"></i> Libraries</h3>
+                                    <div class="sk-tags">
+                                        <span>Pandas</span><span>NumPy</span><span>Requests</span>
+                                    </div>
+                                </div>
+                                <div class="sk-tile sk-s12 sk-reveal">
+                                    <h3><i class="fa fa-plug"></i> Integrations &amp; Domains</h3>
+                                    <div class="sk-tags">
+                                        <span>REST APIs</span><span>FedEx</span><span>DHL</span><span>Sendcloud</span>
+                                        <span>ZK Biometric</span><span>ZPL / QZ Tray</span><span>React</span><span>PWA</span>
+                                        <span>Sales</span><span>Inventory</span><span>Manufacturing</span><span>Accounting</span><span>POS</span><span>HR</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Experience (project based, from Cybrosys timesheets; Saturday sessions excluded) -->
+                    <section id="experience" class="sk-section">
+                        <div class="sk-wrap">
+                            <h2 class="sk-title sk-reveal"><small>04</small>Experience</h2>
+                            <p class="sk-lede sk-reveal">Python/Odoo Developer at Cybrosys Technologies, Calicut &#183; Feb 2023 - Present</p>
+                            <div class="sk-bento">
+
+                                <article class="sk-tile sk-s12 sk-tile-navy sk-exp sk-reveal">
+                                    <div class="sk-exp-head">
+                                        <div>
+                                            <h3>Sales, Inventory, Manufacturing &amp; Shipping Modules</h3>
+                                            <h4>Odoo 16 to Odoo 19 migration, shipping integrations and warehouse apps</h4>
+                                        </div>
+                                        <span class="sk-date">May 2025 - Present</span>
+                                    </div>
+                                    <div class="sk-tags sk-tags-sm"><span>Python</span><span>Odoo 16 / 19</span><span>JavaScript</span><span>React</span><span>PostgreSQL</span><span>XML</span></div>
+                                    <ul class="sk-cols">
+                                            <li><strong>Migration &amp; Data (Contacts, Products, Purchase, Helpdesk):</strong> Odoo 16 to Odoo 19 migration scripts for contacts, product images, purchase orders, batch transfers, intercompany transactions, helpdesk and sales reports</li>
+                                            <li><strong>Delivery &amp; Shipping:</strong> FedEx REST migration, DHL Parcel, Sendcloud API, shipping labels, combined shipments and fixed weekly delivery</li>
+                                            <li><strong>Inventory &amp; Warehouse:</strong> Warehouse PWA and Supplier app development</li>
+                                            <li><strong>Manufacturing:</strong> Multistation React app for work orders covering time tracking, scrap and partial flows, valuation versus cost-analysis checks, and QZ Tray printing for production batches</li>
+                                            <li><strong>Sales &amp; Invoicing:</strong> sale order approval flow, route rules, invoice frequency, pro forma invoice template, return delivery orders, reservation and wrong-invoice fixes</li>
+                                            <li><strong>Quality &amp; Security:</strong> EDI security vulnerability fix, plus testing and documentation of the Odoo 19 website and workflows</li>
+                                        </ul>
+                                </article>
+
+                                <article class="sk-tile sk-s5 sk-exp sk-reveal" style="--d:.08s">
+                                    <div class="sk-exp-head">
+                                        <div>
+                                            <h3>HR Attendance, Barcode &amp; Accounting Report Modules</h3>
+                                            <h4>Attendance, barcode and reporting customizations (Odoo 18)</h4>
+                                        </div>
+                                        <span class="sk-date">Feb 2025 - May 2025</span>
+                                    </div>
+                                    <div class="sk-tags sk-tags-sm"><span>Python</span><span>Odoo 18</span><span>JavaScript</span><span>ZPL</span><span>XML</span></div>
+                                    <ul>
+                                            <li><strong>HR Attendance:</strong> ZK biometric attendance device integration and attendance colour coding</li>
+                                            <li><strong>Barcode &amp; Inventory:</strong> barcode label printing (including ZPL), label quantity handling, barcode app receipts and the replenishment warning fix</li>
+                                            <li><strong>Accounting &amp; Reports:</strong> Customer Follow-up Statement report, tax report output to client formats, accounting and certificate renewal tasks</li>
+                                        </ul>
+                                </article>
+
+                                <article class="sk-tile sk-s7 sk-exp sk-reveal" style="--d:.16s">
+                                    <div class="sk-exp-head">
+                                        <div>
+                                            <h3>Sales, Purchase, Inventory &amp; Accounting Modules</h3>
+                                            <h4>Odoo 16 migration, inventory reconciliation and sales/purchase workflows</h4>
+                                        </div>
+                                        <span class="sk-date">Oct 2023 - Jan 2025</span>
+                                    </div>
+                                    <div class="sk-tags sk-tags-sm"><span>Python</span><span>Odoo 16</span><span>JavaScript</span><span>REST API</span><span>PostgreSQL</span><span>XML</span></div>
+                                    <ul>
+                                            <li><strong>Migration &amp; API:</strong> Odoo 16 migration including API migration, cart product verification and testing of the apps on the server</li>
+                                            <li><strong>Inventory:</strong> Vendsys inventory reconciliation, local inventory management with end-quantity fixes, receive order queue restructuring and standardized label formats</li>
+                                            <li><strong>Sales:</strong> sale order flows: PDF templates, action buttons, warnings, UoM, zero-price and discount bugs</li>
+                                            <li><strong>Purchase:</strong> purchase order flow processing 80+ products per order</li>
+                                            <li><strong>Accounting &amp; Products:</strong> product master cost fields, product cost change report, tax, invoice and portal issues</li>
+                                            <li><strong>Scanning &amp; Support:</strong> UPC scan failure logging, terminal app script and customer-care tickets</li>
+                                        </ul>
+                                </article>
+
+                                <article class="sk-tile sk-s12 sk-exp sk-reveal">
+                                    <div class="sk-exp-head">
+                                        <div>
+                                            <h3>HR, Inventory, POS &amp; Integration Modules</h3>
+                                            <h4>Module development and version migration for the Cybrosys app store</h4>
+                                        </div>
+                                        <span class="sk-date">Mar 2023 - Sep 2023</span>
+                                    </div>
+                                    <div class="sk-tags sk-tags-sm"><span>Python</span><span>JavaScript</span><span>OWL / QWeb</span><span>CSS</span><span>XML</span></div>
+                                    <ul class="sk-cols">
+                                            <li><strong>HR:</strong> offline attendance with auto sync and contact birthday greetings</li>
+                                            <li><strong>Inventory:</strong> package split and UPCitemdb product lookup integration</li>
+                                            <li><strong>Point of Sale:</strong> POS receipt designs</li>
+                                            <li><strong>Search &amp; UI:</strong> one2many search widget</li>
+                                            <li><strong>Integrations:</strong> Xero, Monday.com, Google Tasks and a REST API module</li>
+                                            <li><strong>Migration &amp; Support:</strong> porting apps across Odoo versions 13 to 19, technical blogs, customer email support and Flutter R&amp;D</li>
+                                        </ul>
+                                </article>
+
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Education -->
+                    <section id="education" class="sk-section">
+                        <div class="sk-wrap">
+                            <h2 class="sk-title sk-reveal"><small>05</small>Education</h2>
+                            <div class="sk-bento">
+                                <div class="sk-tile sk-s6 sk-edu sk-reveal">
+                                    <i class="fa fa-graduation-cap sk-edu-icon"></i>
+                                    <span class="sk-date">2015 - 2018</span>
+                                    <h3>B.Tech in Electronics and Communication Engineering</h3>
+                                    <h4>Calicut University</h4>
+                                    <p>AL-Ameen Engineering College, Shoranur</p>
+                                </div>
+                                <div class="sk-tile sk-s6 sk-edu sk-reveal" style="--d:.1s">
+                                    <i class="fa fa-graduation-cap sk-edu-icon"></i>
+                                    <span class="sk-date">2012 - 2015</span>
+                                    <h3>Diploma in Electronics Engineering</h3>
+                                    <h4>Board of Technical Education</h4>
+                                    <p>Govt. Women's Polytechnic College, Kottakkal</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Contact -->
+                    <section id="contact" class="sk-section">
+                        <div class="sk-wrap">
+                            <h2 class="sk-title sk-reveal"><small>06</small>Get In Touch</h2>
+                            <div class="sk-bento">
+                                <div class="sk-tile sk-s5 sk-tile-navy sk-cta sk-reveal">
+                                    <h3>Let's work together</h3>
+                                    <p>Have an Odoo project or an opportunity in mind? I'd love to hear from you.</p>
+                                    <a href="mailto:syamilichinnu8597@gmail.com" class="sk-btn sk-btn-light">Send an email</a>
+                                </div>
+                                <div class="sk-s7 sk-minigrid">
+                                    <a class="sk-tile sk-contact-item sk-reveal" href="mailto:syamilichinnu8597@gmail.com">
+                                        <i class="fa fa-envelope"></i><div><small>Email</small><span>Send me an email</span></div>
+                                    </a>
+                                    <a class="sk-tile sk-contact-item sk-reveal" style="--d:.08s" href="https://www.linkedin.com/in/syamili-k-44374621a/" target="_blank" rel="noopener">
+                                        <i class="fa fa-linkedin"></i><div><small>LinkedIn</small><span>Open LinkedIn profile</span></div>
+                                    </a>
+                                    <a class="sk-tile sk-contact-item sk-reveal" style="--d:.16s" href="https://github.com/syamilichinnu" target="_blank" rel="noopener">
+                                        <i class="fa fa-github"></i><div><small>GitHub</small><span>Open GitHub profile</span></div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <footer class="sk-footer">
+                        <div class="sk-wrap">Designed &amp; built by <b>Syamili K</b></div>
+                    </footer>
+
+                </div>
+
+                <a href="#home" class="sk-top" aria-label="Back to top"><i class="fa fa-chevron-up"></i></a>
+
+            </div>
+        </div>
+
+    </t>
+</t>

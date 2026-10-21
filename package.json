@@ -1,0 +1,18 @@
+{
+  "name": "syamili-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio and resume of Syamili K, Odoo / Python Developer. Built with plain Node.js, no dependencies.",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.js",
+    "start": "node scripts/serve.js",
+    "dev": "node scripts/build.js && node scripts/serve.js",
+    "embed-cv": "node scripts/embed-cv.js",
+    "cv": "python3 tools/make_cv.py && node scripts/embed-cv.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "Syamili K",
+  "license": "UNLICENSED"
+}
