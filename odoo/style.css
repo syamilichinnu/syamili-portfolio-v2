@@ -183,6 +183,7 @@ body.editor_enable .sk-nav { position: absolute; }
 .sk-float-1 { top: -2px; right: -14px; }
 .sk-float-2 { bottom: 4px; left: -18px; animation-delay: -1.7s; }
 .sk-float-3 { bottom: -6px; right: 40px; animation-delay: -3.2s; }
+.sk-portfolio[data-sk-theme="light"] .sk-float { background: rgba(255, 255, 255, 0.96); color: var(--ink); border-color: var(--acc-brd); box-shadow: 0 10px 26px rgba(11, 27, 58, 0.16); }
 @keyframes sk-bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-9px); } }
 
 /* Stats */
