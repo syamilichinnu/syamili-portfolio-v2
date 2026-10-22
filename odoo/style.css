@@ -1,8 +1,8 @@
-// Dark premium portfolio theme: deep navy background with animated blue/cyan glow,
-// glass bento tiles with a mouse-following spotlight, terminal hero card, tech marquee.
-// Dark by default, light mode via the toggle, print stylesheet for a clean PDF.
-// Everything is scoped under .sk-portfolio. Plain CSS only (no clamp/min/max) so it
-// compiles safely as user_custom_rules.scss.
+/*// Dark premium portfolio theme: deep navy background with animated blue/cyan glow,*/
+/*// glass bento tiles with a mouse-following spotlight, terminal hero card, tech marquee.*/
+/*// Dark by default, light mode via the toggle, print stylesheet for a clean PDF.*/
+/*// Everything is scoped under .sk-portfolio. Plain CSS only (no clamp/min/max) so it*/
+/*// compiles safely as user_custom_rules.scss.*/
 .sk-portfolio {
     --bg: #050a18;
     --surface: rgba(15, 26, 51, 0.72);
